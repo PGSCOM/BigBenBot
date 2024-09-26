@@ -20,7 +20,7 @@ Client.on('ready', async () => {
 	}
 	textChannel = guild.channels.cache.get(TEXT_CHANNEL_ID);
 	console.log('Big Ben Ready...');
-	Client.user.setPresence({ activity: { name: 'the hour', type: 'WATCHING' }, status: 'idle' });
+	Client.user.setPresence({ activity: { name: 'la hora', type: 'WATCHING' }, status: 'idle' });
 });
 
 // use node-cron to create a job to run every hour
